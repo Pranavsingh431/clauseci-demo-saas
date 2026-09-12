@@ -3,18 +3,18 @@
 # Changing any value here changes how long real customer data is kept.
 
 defaults:
-  application_logs_days: 30
-  diagnostic_logs_days: 30
+  application_logs_days: 90
+  diagnostic_logs_days: 90
   audit_logs_days: 90
-  backup_retention_days: 7
+  backup_retention_days: 30
 
 customers:
   acme-corp:
     display_name: "Acme Corporation"
-    application_logs_days: 30
-    diagnostic_logs_days: 30
+    application_logs_days: 90
+    diagnostic_logs_days: 90
     audit_logs_days: 90
-    backup_retention_days: 7
+    backup_retention_days: 30
 
   globex:
     display_name: "Globex International Ltd."
