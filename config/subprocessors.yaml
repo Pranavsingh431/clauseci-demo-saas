@@ -20,3 +20,9 @@ subprocessors:
     regions: [us-east-1]
     processes_customer_data: true
     customers: [acme-corp, globex, acme-labs]
+
+  - name: "Datadog, Inc."
+    purpose: application performance monitoring and log indexing
+    regions: [us-east-1]
+    processes_customer_data: true
+    customers: [acme-corp, globex, acme-labs]

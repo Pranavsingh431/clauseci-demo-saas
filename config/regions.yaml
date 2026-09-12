@@ -18,3 +18,9 @@ customers:
   acme-labs:
     primary_region: ap-south-1
     allowed_regions: [ap-south-1, us-east-1]
+
+# Telemetry egress for the new APM vendor.
+telemetry:
+  export_enabled: true
+  export_region: us-east-1
+  includes_request_payloads: true
