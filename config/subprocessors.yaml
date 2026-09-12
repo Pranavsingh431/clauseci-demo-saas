@@ -1,0 +1,22 @@
+# Third parties that process customer data on Northwind's behalf.
+# Adding or replacing an entry triggers contractual notice obligations
+# to every customer listed under `customers`.
+
+subprocessors:
+  - name: "Amazon Web Services, Inc."
+    purpose: hosting
+    regions: [eu-west-1, eu-central-1, eu-west-2, ap-south-1, us-east-1]
+    processes_customer_data: true
+    customers: [acme-corp, globex, acme-labs]
+
+  - name: "Stripe, Inc."
+    purpose: payment processing
+    regions: [us-east-1]
+    processes_customer_data: true
+    customers: [acme-corp, globex]
+
+  - name: "Twilio SendGrid"
+    purpose: transactional email delivery
+    regions: [us-east-1]
+    processes_customer_data: true
+    customers: [acme-corp, globex, acme-labs]

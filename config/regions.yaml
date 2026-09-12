@@ -1,0 +1,20 @@
+# Northwind Platform — data residency
+# `primary_region` is where customer data is written.
+# `allowed_regions` is where it may be replicated or processed.
+
+defaults:
+  primary_region: eu-west-1
+  allowed_regions: [eu-west-1, eu-central-1]
+
+customers:
+  acme-corp:
+    primary_region: eu-west-1
+    allowed_regions: [eu-west-1, eu-central-1]
+
+  globex:
+    primary_region: eu-west-2
+    allowed_regions: [eu-west-2, eu-west-1, us-east-1]
+
+  acme-labs:
+    primary_region: ap-south-1
+    allowed_regions: [ap-south-1, us-east-1]

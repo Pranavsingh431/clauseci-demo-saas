@@ -1,0 +1,20 @@
+# Service level and notice-period commitments.
+
+customers:
+  acme-corp:
+    uptime_target_pct: 99.9
+    maintenance_notice_days: 5
+    api_deprecation_notice_days: 90
+    breach_notification_hours: 72
+
+  globex:
+    uptime_target_pct: 99.5
+    maintenance_notice_days: 3
+    api_deprecation_notice_days: 30
+    breach_notification_hours: 72
+
+  acme-labs:
+    uptime_target_pct: 99.0
+    maintenance_notice_days: 1
+    api_deprecation_notice_days: 14
+    breach_notification_hours: 72

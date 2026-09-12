@@ -1,0 +1,28 @@
+# Documented public API surface.
+# `status: ga` endpoints are covered by contractual deprecation-notice terms.
+
+endpoints:
+  - path: /v1/events
+    method: GET
+    status: ga
+    since: "2024-11-01"
+
+  - path: /v1/exports
+    method: POST
+    status: ga
+    since: "2025-01-10"
+
+  - path: /v2/events
+    method: GET
+    status: ga
+    since: "2026-02-01"
+
+  - path: /v2/exports
+    method: POST
+    status: ga
+    since: "2026-02-01"
+
+  - path: /v2/streams
+    method: GET
+    status: beta
+    since: "2026-07-15"
