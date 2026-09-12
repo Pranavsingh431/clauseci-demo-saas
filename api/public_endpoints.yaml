@@ -7,11 +7,6 @@ endpoints:
     status: ga
     since: "2024-11-01"
 
-  - path: /v1/exports
-    method: POST
-    status: ga
-    since: "2025-01-10"
-
   - path: /v2/events
     method: GET
     status: ga
