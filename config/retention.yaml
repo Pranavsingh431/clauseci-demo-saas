@@ -23,7 +23,8 @@ customers:
 
   globex:
     display_name: "Globex International Ltd."
-    # application and diagnostic inherit from defaults.
+    # diagnostic inherits from defaults.
+    application_logs_days: 60
     audit_logs_days: 365
     backup_retention_days: 30
 
