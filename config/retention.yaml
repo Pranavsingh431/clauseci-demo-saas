@@ -10,8 +10,8 @@
 # pin its own override.
 
 defaults:
-  application_logs_days: 30
-  diagnostic_logs_days: 30
+  application_logs_days: 90
+  diagnostic_logs_days: 90
   audit_logs_days: 30
   backup_retention_days: 7
 
