@@ -1,0 +1,13 @@
+# Query result cache. In-memory only, never persisted, never leaves the
+# process. Does not store customer data at rest.
+
+query_cache:
+  enabled: true
+  max_entries: 50000
+  ttl_seconds: 120
+  eviction: lru
+
+connection_pool:
+  min_size: 4
+  max_size: 32
+  idle_timeout_seconds: 300
