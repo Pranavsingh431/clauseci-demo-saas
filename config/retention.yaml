@@ -20,6 +20,8 @@ customers:
     display_name: "Acme Corporation"
     # application, diagnostic and audit all inherit from defaults.
     backup_retention_days: 7
+    application_logs_days: 30
+    diagnostic_logs_days: 30
 
   globex:
     display_name: "Globex International Ltd."
